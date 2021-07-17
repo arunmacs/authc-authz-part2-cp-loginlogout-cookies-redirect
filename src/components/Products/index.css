@@ -1,0 +1,20 @@
+.products-container {
+  width: 90%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.products-img {
+  width: 180px;
+  margin: 5px;
+}
+
+@media (min-width: 768px) {
+  .products-img {
+    width: 200px;
+  }
+}
